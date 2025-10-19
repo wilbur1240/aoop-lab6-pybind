@@ -1,0 +1,16 @@
+name: pybind11_lab
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pybind11
+  - cmake
+  - make
+  - cxx-compiler
+  - numpy
+  - pytest
+  - ipython
+  - pip:
+    - setuptools
