@@ -1,0 +1,21 @@
+# Pybind11 Lab - Python Package Requirements
+# Install with: pip install -r requirements.txt
+
+# Core requirement
+pybind11>=2.11.0
+
+# Useful for scientific computing (common use case with pybind11)
+numpy>=1.24.0
+
+# Testing framework
+pytest>=7.4.0
+
+# Better interactive shell
+ipython>=8.12.0
+
+# Build tools
+setuptools>=68.0.0
+wheel>=0.41.0
+
+# Optional: For building with CMake
+cmake>=3.27.0
